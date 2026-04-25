@@ -340,33 +340,6 @@ churn_probability = best_xgb.predict_proba(X_new)[:, 1]
 
 ---
 
-## Future Work
-
-1. **Model Enhancement:**
-   - Test additional algorithms (LightGBM, CatBoost, Neural Networks)
-   - Create additional interaction features
-   - Apply SHAP for explainable AI insights
-
-2. **Threshold Optimization:**
-   - Adjust prediction threshold based on business costs
-   - Create custom loss functions reflecting business priorities
-
-3. **Temporal Analysis:**
-   - Analyze temporal patterns in churn
-   - Implement time-series features
-
-4. **Deployment:**
-   - Deploy model as web service for real-time predictions
-   - Implement model monitoring and retraining pipeline
-   - Create dashboard for business users
-
-5. **Data Enhancement:**
-   - Integrate additional data sources (customer feedback, support tickets)
-   - Analyze customer segmentation
-   - Study geographic and demographic trends
-
----
-
 ## References
 
 - **XGBoost:** Chen, T., and Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*.
@@ -400,6 +373,3 @@ Course: MSAI 535 001 - Data Mining and Knowledge Discovery
 This project is part of academic coursework at AUPP. Please contact the author for usage permissions.
 
 ---
-
-**Last Updated:** April 2026  
-**Status:** Completed
